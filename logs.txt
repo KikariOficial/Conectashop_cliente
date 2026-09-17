@@ -1,0 +1,5 @@
+timestamp=2026-09-16T20:41:16 | protocol=REST | client=C01 | server=localhost:8000 | requestId=6ef11b99-4b12-4b2f-8f61-049a8567352e | operation=GET | target=/api/v1/products/KB-100 | status=200 | durationMs=2037.91 | result=PASS
+timestamp=2026-09-16T20:41:18 | protocol=REST | client=C01 | server=localhost:8000 | requestId=7ea9f6d6-8344-46eb-8157-a0bae62bfc24 | operation=GET | target=/api/v1/products/XX-999 | status=404 | durationMs=2026.76 | result=PASS
+timestamp=2026-09-16T20:41:20 | protocol=REST | client=C01 | server=localhost:8000 | requestId=0594f479-1a74-4665-8688-ee9d9cbd863f | operation=POST | target=/api/v1/quotes | status=200 | durationMs=2027.4 | result=PASS
+timestamp=2026-09-16T20:41:22 | protocol=REST | client=C01 | server=localhost:8000 | requestId=f881eb40-3c63-45e1-8987-83d6eae0b500 | operation=POST | target=/api/v1/quotes | status=200 | durationMs=2030.37 | result=PASS
+timestamp=2026-09-16T20:41:24 | protocol=REST | client=C01 | server=localhost:8000 | requestId=d9137f41-d877-4363-a6c2-6d1d0cc43d1b | operation=POST | target=/api/v1/quotes | status=422 | durationMs=2019.58 | result=PASS
