@@ -129,3 +129,46 @@ Durante a etapa de integração, o cliente deverá utilizar os servidores REST f
 Equipe: C01
 
 Implementação: Cliente REST em Python.
+
+#
+#
+#
+#
+#
+#
+
+# Cliente gRPC - ConectaShop
+
+Este projeto contém o desenvolvimento do Cliente gRPC para o cenário do ConectaShop, focado em consumir o serviço `ShippingService`.
+
+## Pré-requisitos
+- [Node.js](https://nodejs.org/en/) (versão 18+ recomendada)
+- NPM (incluso no Node.js)
+
+## Instalação
+Na pasta do projeto, instale as dependências:
+```bash
+npm install
+```
+
+## Como configurar e executar
+
+Você pode apontar o cliente para qualquer servidor configurando a variável de ambiente `GRPC_TARGET`. Caso não informada, o padrão será `localhost:50051`. Opcionalmente, pode configurar o `CLIENT_TEAM` (padrão: `C01`).
+
+```bash
+# Executar apontando para um servidor específico
+GRPC_TARGET=host:porta node client.js
+
+# Exemplo contra um ambiente local
+GRPC_TARGET=localhost:50051 node client.js
+```
+
+Se desejar testar com um mock local:
+1. Em um terminal, inicie o servidor:
+```bash
+node server.js
+```
+2. Em outro terminal, execute os testes com o cliente:
+```bash
+node client.js
+```
