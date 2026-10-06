@@ -6,7 +6,7 @@ from datetime import datetime
 import requests
 
 
-REST_BASE_URL = os.getenv("REST_BASE_URL")
+REST_BASE_URL = os.getenv("REST_BASE_URL", "http://172.16.16.204:8080")
 LOG_FILE = "logs.txt"
 
 

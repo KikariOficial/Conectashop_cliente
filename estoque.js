@@ -29,7 +29,7 @@ app.get('/produtos/:id', (req, res) => {
     }, delay);
 });
 
-const PORT = 3001;
-app.listen(PORT, () => {
+const PORT = 5001;
+app.listen(PORT, "172.16.16.204", () => {
     console.log(`Serviço de Estoque rodando na porta ${PORT}`);
 });

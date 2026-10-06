@@ -72,7 +72,7 @@ app.post('/pedidos', async (req, res) => {
     }
 });
 
-const PORT = 3000;
-app.listen(PORT, () => {
+const PORT = 5001;
+app.listen(PORT, "127.16.16.204" , () => {
     console.log(`Serviço de Pedidos rodando na porta ${PORT}`);
 });
